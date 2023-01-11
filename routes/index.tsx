@@ -3,22 +3,28 @@ import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Fresh App</title>
-      </Head>
-      <div class="p-4 mx-auto max-w-screen-md">
-        <img
-          src="/logo.svg"
-          class="w-32 h-32"
-          alt="the fresh logo: a sliced lemon dripping with juice"
-        />
-        <p class="my-6">
-          Welcome to `fresh`. Try updating this message in the ./routes/index.tsx
-          file, and refresh.
-        </p>
-        <Counter start={3} />
-      </div>
-    </>
+      <>
+	  <Head>
+              <title>Fresh App</title>
+	  </Head>
+          <div class="bg-gray-100 flex h-screen">
+	      <aside class="w-1/5 bg-gray-200 h-full">
+	      </aside> 
+	      <div class="w-3/5 bg-white px-6 text-xl h-full flex flex-col items-center justify-center">
+		  <h2 class="text-3xl font-medium py-4">Domki nad morzem</h2>
+		  <div class="flex flex-col lg:flex-row">
+		      <div class="content-container w-full lg:w-2/4 px-4">
+			  Jeśli szukasz spokojnego miejsca wakacyjnego blisko morza Bałtyckiego, to ośrodek drewnianych domków jest idealnym wyborem. Nasz ośrodek z dala od zgiełku, ale zarazem zaledwie kilka minut spacerem od piaszczystej plaży. Dla dzieci przygotowaliśmy specjalnie zagospodarowany plac zabaw, dla rodziców natomiast wypożyczalnię rowerów, dzięki czemu mogą podziwiać piękno okolic na dwóch kółkach. Nasze domki są wyposażone w wygodne łazienki i aneksy kuchenne, dzięki czemu będzie można swobodnie przygotowywać posiłki. W ośrodku panuje przyjazna atmosfera i wszystko jest skoncentrowane na odpoczynku i relaksie. Zachęcamy do zarezerwowania noclegów w naszych domkach i przyjechania do nas na wypoczynek.
+		      </div>
+		      <img src="/domki.jpg" alt="Alt text" class="w-full lg:w-1/3 h-auto lg:h-64 object-cover mb-4 lg:mb-0 mr-4 lg:mr-0" />
+		  </div>
+	      </div>
+	      <aside class="w-1/5 bg-gray-200 h-full">
+		  
+	      </aside> 
+	      
+	  </div>
+	  
+      </>
   );
 }
