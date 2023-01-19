@@ -1,7 +1,7 @@
 import { Head } from "$fresh/runtime.ts";
 import Counter from "../islands/Counter.tsx";
-import GeneralDesc from "../islands/GeneralDesc.tsx";
-import Menu from "../components/Menu.tsx";
+import GeneralDesc from "../components/GeneralDesc.tsx";
+import NavMenu from "../islands/NavMenu.tsx"
 
 export default function Home() {
     return (
@@ -9,9 +9,10 @@ export default function Home() {
 	    <Head>
 		<title>Domki Słoneczko</title>
 	    </Head>
-	    <Menu />
-            <GeneralDesc />
-
+	    <NavMenu menuItems={["Domki", "Dźwirzyno", "Kontakt"]} />
+	    <GeneralDesc />
+	    <GeneralDesc />
+	    
 	</>
     );
 }
