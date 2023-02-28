@@ -6,6 +6,7 @@ import NavMenu2 from "../islands/NavMenu2.tsx"
 import LandingPage from "../components/LandingPage.tsx"
 import DomekDesc from "../components/DomekDesc.tsx"
 import Menu from "../islands/Menu.tsx"
+import Carousel from "../islands/Carousel.tsx"
 
 export default function Home() {
     return (
@@ -28,6 +29,7 @@ export default function Home() {
 	     }
 	    ]}
 	    />
+	    <Carousel items={["/domki.jpg", "/domek6.jpg"]} />
 	</>
     );
 }
