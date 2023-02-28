@@ -10,7 +10,7 @@ const Menu: FunctionComponent = () => {
     };
     
     return (
-	<header class="absolute top-0 left-0 right-0 z-20">
+	<header class="fixed top-0 left-0 right-0 z-50">
 	    <nav class="container px-6 py-4 mx-auto md:px-12">
 		<div class="items-center justify-between md:flex">
 		    <div class="flex items-center justify-between">
