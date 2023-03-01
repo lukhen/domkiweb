@@ -17,28 +17,28 @@ export default function Home() {
 	    <Menu />
 	    <LandingPage />
 	    <CardWith4Images
-		header={"HEN DALEKO"}
-		title={"Drewniane domki niedaleko pięknej piaszczystej plaży."}
-		desc={"Myślisz o spokojnych wakacjach z dziećmi. Zapoznaj się z naszą ofertą."}
-		image11={"./domki.jpg"}
-		image12={"./domek6.jpg"}
-		image21={"./3.jpg"}
-		image22={"./4.jpg"}
-		elements={["duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
+	    header={"HEN DALEKO"}
+	    title={"Drewniane domki niedaleko pięknej piaszczystej plaży."}
+	    desc={"Myślisz o spokojnych wakacjach z dziećmi. Zapoznaj się z naszą ofertą."}
+	    image11={"./domki.jpg"}
+	    image12={"./domek6.jpg"}
+	    image21={"./3.jpg"}
+	    image22={"./4.jpg"}
+	    elements={["duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
 	    />
 	    <OfferList />
 	    <DomekDesc
-	    title="Domki nad morzem"
-		image="/domki.jpg"
-	    elements={
-	    [{
-		title: "Lokalizacja",
-		text: "Doskonała lokalizacja. Z dala od zgiełku, ale wciąż blisko plaży."},
-	     {
-		 title: "Obiekt przyjazny dzieciom",
-		 text: "Duży plac zabaw. Teren ogrodzony i monitorowany."
-	     }
-	    ]}
+		title="Domki nad morzem"
+	    image="/domki.jpg"
+		elements={
+		[{
+		    title: "Lokalizacja",
+		    text: "Doskonała lokalizacja. Z dala od zgiełku, ale wciąż blisko plaży."},
+		 {
+		     title: "Obiekt przyjazny dzieciom",
+		     text: "Duży plac zabaw. Teren ogrodzony i monitorowany."
+		 }
+		]}
 	    />
 	</>
     );

@@ -1,6 +1,8 @@
 const OfferList: preact.FunctionalComponent = () => {
     return (
-	<div id="oferta" class="lg:w-4/5 my-10  shadow rounded-xl mx-auto relative p-4 bg-gray-100 dark:bg-gray-800">
+	<div id="oferta" class="lg:w-4/5 my-10  rounded-xl mx-auto relative p-4 bg-white dark:bg-gray-800">
+	    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+
 	    <div class="w-full p-12 bg-white">
 		<div class="flex items-end justify-between mb-12 header">
 		    <div class="title">
