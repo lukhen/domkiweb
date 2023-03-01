@@ -7,7 +7,7 @@ import LandingPage from "../components/LandingPage.tsx"
 import DomekDesc from "../components/DomekDesc.tsx"
 import Menu from "../islands/Menu.tsx"
 import CardWith4Images from "../components/cardWith4Images.tsx"
-
+import OfferList from "../components/OfferList.tsx"
 export default function Home() {
     return (
 	<>
@@ -26,6 +26,7 @@ export default function Home() {
 		image22={"./4.jpg"}
 		elements={["duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
 	    />
+	    <OfferList />
 	    <DomekDesc
 	    title="Domki nad morzem"
 		image="/domki.jpg"
