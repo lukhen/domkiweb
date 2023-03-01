@@ -34,14 +34,14 @@ const Menu: FunctionComponent = () => {
 			</div>
 		    </div>
 		    <div class={`md:flex items-center ${isMenuOpen ? 'block' : 'hidden'}`}>
-			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
-			    About us
+			<a href="#oferta" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
+			    Oferta
 			</a>
 			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
-			    Calendar
+			    O obiekcie
 			</a>
 			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
-			    Contact us
+			    Kontakt
 			</a>
 		    </div>
 		</div>
