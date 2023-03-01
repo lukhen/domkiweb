@@ -6,7 +6,7 @@ import NavMenu2 from "../islands/NavMenu2.tsx"
 import LandingPage from "../components/LandingPage.tsx"
 import DomekDesc from "../components/DomekDesc.tsx"
 import Menu from "../islands/Menu.tsx"
-import Carousel from "../islands/Carousel.tsx"
+import CardWith4Images from "../components/cardWith4Images.tsx"
 
 export default function Home() {
     return (
@@ -16,6 +16,16 @@ export default function Home() {
 	    </Head>
 	    <Menu />
 	    <LandingPage />
+	    <CardWith4Images
+		header={"HEN DALEKO"}
+		title={"Drewniane domki niedaleko pięknej piaszczystej plaży."}
+		desc={"Myślisz o spokojnych wakacjach z dziećmi. Zapoznaj się z naszą ofertą."}
+		image11={"./domki.jpg"}
+		image12={"./domek6.jpg"}
+		image21={"./3.jpg"}
+		image22={"./4.jpg"}
+		elements={["duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
+	    />
 	    <DomekDesc
 	    title="Domki nad morzem"
 		image="/domki.jpg"
@@ -29,7 +39,6 @@ export default function Home() {
 	     }
 	    ]}
 	    />
-	    <Carousel items={["/domki.jpg", "/domek6.jpg"]} />
 	</>
     );
 }
