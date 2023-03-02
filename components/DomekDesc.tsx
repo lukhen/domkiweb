@@ -47,7 +47,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({title, image, elements}) 
 		    </ul>
 		</div>
 		<div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
-		    <img src={image} alt="illustration" class="relative w-auto mx-auto rounded shadow-lg"/>
+		    <img src={image} alt="illustration" class="w-46 mx-auto rounded shadow-lg" width="600"/>
 		</div>
 	    </div>
 	</div>
