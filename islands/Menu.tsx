@@ -40,7 +40,7 @@ const Menu: FunctionComponent = () => {
 			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
 			    O obiekcie
 			</a>
-			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
+			<a href="#kontakt" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
 			    Kontakt
 			</a>
 		    </div>
