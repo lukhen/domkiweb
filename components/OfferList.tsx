@@ -16,7 +16,7 @@ const OfferList: preact.FunctionalComponent = () => {
 		    
 		</div>
 		<div class="grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-3">
-		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-80">
 			<a href="#" class="block h-full">
 			    <img alt="blog photo" src="./domki.jpg" class="object-cover w-full max-h-40"/>
 			    <div class="w-full p-4 bg-white dark:bg-gray-800">
@@ -45,7 +45,7 @@ const OfferList: preact.FunctionalComponent = () => {
 			    </div>
 			</a>
 		    </div>
-		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-80">
 			<a href="#" class="block h-full">
 			    <img alt="blog photo" src="./domek6.jpg" class="object-cover w-full max-h-40"/>
 			    <div class="w-full p-4 bg-white dark:bg-gray-800">
@@ -74,7 +74,7 @@ const OfferList: preact.FunctionalComponent = () => {
 			    </div>
 			</a>
 		    </div>
-		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-60 md:w-80">
+		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-80">
 			<a href="#" class="block h-full">
 			    <img alt="blog photo" src="./1.jpg" class="object-cover w-full max-h-40"/>
 			    <div class="w-full p-4 bg-white dark:bg-gray-800">
