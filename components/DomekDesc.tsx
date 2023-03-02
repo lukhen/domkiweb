@@ -4,15 +4,16 @@ interface Element {
 }
 
 interface Props {
+    id: string;
   title: string;
     image: string;
     elements: Element[]
 }
 
 
-const DomekDesc: preact.FunctionalComponent<Props> = ({title, image, elements}) => {
+const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, elements}) => {
     return (
-	<div class="lg:w-4/5 my-10  rounded-xl mx-auto relative p-4 bg-white dark:bg-gray-800">
+	<div id={id} class="lg:w-4/5 my-10  rounded-xl mx-auto relative p-4 bg-white dark:bg-gray-800">
 	    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
 	    <div class="bg-white lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">

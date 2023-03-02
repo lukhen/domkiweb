@@ -28,15 +28,68 @@ export default function Home() {
 	    />
 	    <OfferList />
 	    <DomekDesc
-		title="Domki nad morzem"
+		id="domek6"
+		title="Domek piętrowy"
 	    image="/domki.jpg"
 		elements={
 		[{
-		    title: "Lokalizacja",
-		    text: "Doskonała lokalizacja. Z dala od zgiełku, ale wciąż blisko plaży."},
+		    title: "6 osób",
+		    text: "Dwie sypialnie na piętrze, w każdej po dwa łóżka jednoosobowe. Na parterze salon z rozkładanym narożnikiem i łóżkiem jednoosobowym."},
 		 {
-		     title: "Obiekt przyjazny dzieciom",
-		     text: "Duży plac zabaw. Teren ogrodzony i monitorowany."
+		     title: "Duża łazienka",
+		     text: "Łazienka z natryskiem 5 m^2."
+		 },
+		 {
+		     title: "Aneks kuchenny",
+		     text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny."
+		 },
+		 {
+		     title: "Taras",
+		     text: "Przestronny taras z meblami ogrodowymi."
+		 }
+		]}
+	    />
+	    <DomekDesc
+		id="domek4"
+		title="Domek parterowy"
+	    image="/domki.jpg"
+		elements={
+		[{
+		    title: "4 osoby",
+		    text: "Oddzielna, zamykana sypialnia i salon z aneksem"},
+		 {
+		     title: "Łazienka",
+		     text: ""
+		 },
+		 {
+		     title: "Aneks kuchenny",
+		     text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny."
+		 },
+		 {
+		     title: "Taras",
+		     text: "Przestronny taras z meblami ogrodowymi."
+		 }
+		]}
+	    />
+	    <DomekDesc
+		id="apartament"
+		title="Apartament"
+		image="/domki.jpg"
+		elements={
+		[{
+		    title: "6 osób",
+		    text: "Dwie sypialnie i salon."},
+		 {
+		     title: "Kuchnia",
+		     text: "Dostępna na wyłączność na parterze budynku."
+		 },
+		 {
+		     title: "Łazienka",
+		     text: "Prysznic z hydromasażem i wanna."
+		 },
+		 {
+		     title: "Balkon",
+		     text: "Słoneczny balkon z widokiem na ogród i łąkę."
 		 }
 		]}
 	    />
