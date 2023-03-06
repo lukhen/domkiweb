@@ -54,7 +54,7 @@ export default function Home() {
 	    <DomekDesc
 		id="domek4"
 		title="Domek parterowy"
-	    image="/domki.jpg"
+	    image="/20230303_0129_przyciety.jpg"
 		elements={
 		[{
 		    title: "4 osoby",
