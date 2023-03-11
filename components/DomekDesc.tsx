@@ -13,7 +13,7 @@ interface Props {
 
 const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, elements}) => {
     return (
-	<div id={id} class="lg:w-4/5 my-10  rounded-xl mx-auto relative p-4 bg-white dark:bg-gray-800">
+	<div id={id} class="lg:w-4/5 my-10  rounded-xl mx-auto  p-4 bg-white dark:bg-gray-800">
 	    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
 	    <div class="bg-white lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
@@ -47,7 +47,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, element
 			))}
 		    </ul>
 		</div>
-		<div class="relative mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
+		<div class="mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
 		    <img src={image} alt="illustration" class="w-46 mx-auto rounded shadow-lg" width="600"/>
 		</div>
 	    </div>

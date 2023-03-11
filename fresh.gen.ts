@@ -6,11 +6,14 @@ import config from "./deno.json" assert { type: "json" };
 import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/api/joke.ts";
 import * as $2 from "./routes/index.tsx";
-import * as $$0 from "./islands/Carousel.tsx";
-import * as $$1 from "./islands/Counter.tsx";
-import * as $$2 from "./islands/Menu.tsx";
-import * as $$3 from "./islands/NavMenu.tsx";
-import * as $$4 from "./islands/NavMenu2.tsx";
+import * as $$0 from "./islands/CardWith4ComponentsIsland.tsx";
+import * as $$1 from "./islands/Carousel.tsx";
+import * as $$2 from "./islands/Counter.tsx";
+import * as $$3 from "./islands/Menu.tsx";
+import * as $$4 from "./islands/Modal.tsx";
+import * as $$5 from "./islands/ModalContainer.tsx";
+import * as $$6 from "./islands/NavMenu.tsx";
+import * as $$7 from "./islands/NavMenu2.tsx";
 
 const manifest = {
   routes: {
@@ -19,11 +22,14 @@ const manifest = {
     "./routes/index.tsx": $2,
   },
   islands: {
-    "./islands/Carousel.tsx": $$0,
-    "./islands/Counter.tsx": $$1,
-    "./islands/Menu.tsx": $$2,
-    "./islands/NavMenu.tsx": $$3,
-    "./islands/NavMenu2.tsx": $$4,
+    "./islands/CardWith4ComponentsIsland.tsx": $$0,
+    "./islands/Carousel.tsx": $$1,
+    "./islands/Counter.tsx": $$2,
+    "./islands/Menu.tsx": $$3,
+    "./islands/Modal.tsx": $$4,
+    "./islands/ModalContainer.tsx": $$5,
+    "./islands/NavMenu.tsx": $$6,
+    "./islands/NavMenu2.tsx": $$7,
   },
   baseUrl: import.meta.url,
   config,

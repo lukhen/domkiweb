@@ -1,6 +1,6 @@
 const OfferList: preact.FunctionalComponent = () => {
     return (
-	<div id="oferta" class="lg:w-4/5 my-10  rounded-xl mx-auto relative p-4 bg-white dark:bg-gray-800">
+	<div id="oferta" class="lg:w-4/5 my-10  rounded-xl mx-auto p-4 bg-white dark:bg-gray-800">
 	    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
 	    <div class="w-full p-12 bg-white">
@@ -30,7 +30,7 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Na piętrze dwie sypialnie, na parterze salon z aneksem i łazienka.
 				</p>
 				<div class="flex items-center mt-4">
-				    <a href="#" class="relative block">
+				    <a href="#" class="block">
 					<img alt="profil" src="/images/person/6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
 				    </a>
 				    <div class="flex flex-col justify-between ml-4 text-sm">
@@ -59,7 +59,7 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Oddzielna, zamykana sypialnia oraz salon z aneksem i łazienka.
 				</p>
 				<div class="flex items-end mt-4">
-				    <a href="#" class="relative block">
+				    <a href="#" class="block">
 					<img alt="profil" src="./6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
 				    </a>
 				    <div class="flex flex-col justify-between ml-4 text-sm">
@@ -88,7 +88,7 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Komfortowy apartament z dwoma sypialniami i salonem.
 				</p>
 				<div class="flex items-start mt-4">
-				    <a href="#" class="relative block">
+				    <a href="#" class="block">
 					<img alt="profil" src="/images/person/6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
 				    </a>
 				    <div class="flex flex-col justify-between ml-4 text-sm">
