@@ -15,6 +15,7 @@ import * as $$5 from "./islands/Modal.tsx";
 import * as $$6 from "./islands/ModalContainer.tsx";
 import * as $$7 from "./islands/NavMenu.tsx";
 import * as $$8 from "./islands/NavMenu2.tsx";
+import * as $$9 from "./islands/OfferList.tsx";
 
 const manifest = {
   routes: {
@@ -32,6 +33,7 @@ const manifest = {
     "./islands/ModalContainer.tsx": $$6,
     "./islands/NavMenu.tsx": $$7,
     "./islands/NavMenu2.tsx": $$8,
+    "./islands/OfferList.tsx": $$9,
   },
   baseUrl: import.meta.url,
   config,

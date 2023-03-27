@@ -30,16 +30,13 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Na piętrze dwie sypialnie, na parterze salon z aneksem i łazienka.
 				</p>
 				<div class="flex items-center mt-4">
-				    <a href="#" class="block">
-					<img alt="profil" src="/images/person/6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
-				    </a>
+				    
 				    <div class="flex flex-col justify-between ml-4 text-sm">
-					<p class="text-gray-800 dark:text-white">
-					    Cena już od
-					</p>
-					<p class="text-gray-400 dark:text-gray-300">
-					    250 zł za dobę
-					</p>
+					<button
+					    className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
+					><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=60" target="_blank" class="block">
+					    Dostępność/Rezerwacja
+					</a></button>
 				    </div>
 				</div>
 			    </div>
@@ -47,7 +44,7 @@ const OfferList: preact.FunctionalComponent = () => {
 		    </div>
 		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-80">
 			<a href="#domek4" class="block h-full">
-			    <img alt="blog photo" src="./domek6.jpg" class="object-cover w-full max-h-40"/>
+			    <img alt="blog photo" src="./20230303_0129_przyciety.jpg" class="object-cover w-full max-h-40"/>
 			    <div class="w-full p-4 bg-white dark:bg-gray-800">
 				<p class="font-medium text-indigo-500 text-md">
 				    Max 4 osoby
@@ -59,16 +56,12 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Oddzielna, zamykana sypialnia oraz salon z aneksem i łazienka.
 				</p>
 				<div class="flex items-end mt-4">
-				    <a href="#" class="block">
-					<img alt="profil" src="./6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
-				    </a>
 				    <div class="flex flex-col justify-between ml-4 text-sm">
-					<p class="text-gray-800 dark:text-white">
-					    Cena już od
-					</p>
-					<p class="text-gray-400 dark:text-gray-300">
-					    150 zł za dobę
-					</p>
+					<button
+					    className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
+					><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=61" target="_blank" class="block">
+					    Dostępność/Rezerwacja
+					</a></button>
 				    </div>
 				</div>
 			    </div>
@@ -88,17 +81,11 @@ const OfferList: preact.FunctionalComponent = () => {
 				    Komfortowy apartament z dwoma sypialniami i salonem.
 				</p>
 				<div class="flex items-start mt-4">
-				    <a href="#" class="block">
-					<img alt="profil" src="/images/person/6.jpg" class="mx-auto object-cover rounded-full h-10 w-10 "/>
-				    </a>
-				    <div class="flex flex-col justify-between ml-4 text-sm">
-					<p class="text-gray-800 dark:text-white">
-					    Cena już od
-					</p>
-					<p class="text-gray-400 dark:text-gray-300">
-					    250 zł za dobę
-					</p>
-				    </div>
+				    <button
+					className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
+				    ><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=62" target="_blank" class="block">
+					Dostępność/Rezerwacja
+				    </a></button>
 				</div>
 			    </div>
 			</a>
