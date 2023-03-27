@@ -37,8 +37,11 @@ const Menu: FunctionComponent = () => {
 			<a href="#oferta" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
 			    Oferta
 			</a>
-			<a class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
+			<a href="#oobiekcie" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
 			    O obiekcie
+			</a>
+			<a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a" target="_blank" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
+			    Rezerwacja
 			</a>
 			<a href="#kontakt" class="mx-3 text-lg text-white uppercase cursor-pointer hover:text-gray-300">
 			    Kontakt

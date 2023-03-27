@@ -9,7 +9,6 @@ import Menu from "../islands/Menu.tsx"
 import CardWith4Images from "../components/cardWith4Images.tsx"
 import OfferList from "../islands/OfferList.tsx"
 import ContactSection from "../components/ContactSection.tsx"
-import CardWith4ImagesIsland from "../islands/CardWith4ComponentsIsland.tsx"
 import Description from "../islands/Description.tsx"
 export default function Home() {
     return (

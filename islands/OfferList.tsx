@@ -35,7 +35,7 @@ const OfferList: preact.FunctionalComponent = () => {
 					<button
 					    className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
 					><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=60" target="_blank" class="block">
-					    Dostępność/Rezerwacja
+					    Sprawdź ceny i zarezerwuj
 					</a></button>
 				    </div>
 				</div>
@@ -60,7 +60,7 @@ const OfferList: preact.FunctionalComponent = () => {
 					<button
 					    className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
 					><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=61" target="_blank" class="block">
-					    Dostępność/Rezerwacja
+					    Sprawdź ceny i zarezerwuj
 					</a></button>
 				    </div>
 				</div>
@@ -84,7 +84,7 @@ const OfferList: preact.FunctionalComponent = () => {
 				    <button
 					className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
 				    ><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=62" target="_blank" class="block">
-					Dostępność/Rezerwacja
+					Sprawdź ceny i zarezerwuj
 				    </a></button>
 				</div>
 			    </div>
