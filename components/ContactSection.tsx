@@ -12,7 +12,7 @@ const ContactSection: preact.FunctionalComponent = () => {
 			<p>
 			    Jeśli jesteś zainteresowany pobytem u nas, chcesz zapytać o ceny lub nurtuje Cię coś innego napisz lub zadzwoń:
 			</p>
-			<p>email: domki.osrodeksloneczko@gmail.com</p>
+			<p>email: domki.sloneczko@gmail.com</p>
 			<p>tel: 509 572 320</p>
 		    </dd>
 		</dl>
