@@ -10,7 +10,7 @@ const OfferList: preact.FunctionalComponent = () => {
 			    Nasza oferta
 			</p>
 			<p class="text-2xl font-light text-gray-400">
-			    Oferujemy dwa rodzaje domków i apartament
+			    Oferujemy dwa rodzaje domków
 			</p>
 		    </div>
 		    
