@@ -74,28 +74,6 @@ export default function Home() {
 		 }
 		]}
 	    />
-	    <DomekDesc
-		id="apartament"
-		title="Apartament"
-		image="/domki.jpg"
-		elements={
-		[{
-		    title: "6 osób",
-		    text: "Dwie sypialnie i salon."},
-		 {
-		     title: "Kuchnia",
-		     text: "Dostępna na wyłączność na parterze budynku."
-		 },
-		 {
-		     title: "Łazienka",
-		     text: "Prysznic z hydromasażem i wanna."
-		 },
-		 {
-		     title: "Balkon",
-		     text: "Słoneczny balkon z widokiem na ogród i łąkę."
-		 }
-		]}
-	    />
 	    <ContactSection />
 	</>
     );
