@@ -67,30 +67,6 @@ const OfferList: preact.FunctionalComponent = () => {
 			    </div>
 			</a>
 		    </div>
-		    <div class="m-auto overflow-hidden rounded-lg shadow-lg cursor-pointer h-90 w-80">
-			<a href="#apartament" class="block h-full">
-			    <img alt="blog photo" src="./1.jpg" class="object-cover w-full max-h-40"/>
-			    <div class="w-full p-4 bg-white dark:bg-gray-800">
-				<p class="font-medium text-indigo-500 text-md">
-				    Max 6 osób
-				</p>
-				<p class="mb-2 text-xl font-medium text-gray-800 dark:text-white">
-				    Apartament
-				</p>
-				<p class="font-light text-gray-400 dark:text-gray-300 text-md">
-				    Komfortowy apartament z dwoma sypialniami i salonem.
-				</p>
-				<div class="flex items-start mt-4">
-				    <button
-					className="bg-red-400 text-white px-3 py-2 rounded hover:scale-95 transition text-xl"
-				    ><a href="https://cloud.kwhotel.com/be/pl/1/5ab78fc4-6474-4ced-ba21-9754fad71f2a?roomGroupCategoryFilterId=62" target="_blank" class="block">
-					Sprawdź ceny i zarezerwuj
-				    </a></button>
-				</div>
-			    </div>
-			</a>
-		    </div>
-
 		</div>
 	    </div>
 	</div>
