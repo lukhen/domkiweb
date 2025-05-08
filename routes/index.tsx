@@ -26,7 +26,7 @@ export default function Home() {
 	    image12={"./domek6.jpg"}
 	    image21={"./20230303_0667_przyciety.jpg"}
 	    image22={"./20230303_0884_przyciety.jpg"}
-	    elements={["duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
+	    elements={["jacuzzi i sauna", "śniadania", "grill", "sala zabaw", "wypożyczalnia rowerów", "duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
 	    />
 	    <Description />
 	    <OfferList />
