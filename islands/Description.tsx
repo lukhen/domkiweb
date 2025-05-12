@@ -22,8 +22,12 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                      To nasz największy atut. 350 metrów od piaszczystej plaży, 200 m od głównego deptaka,
-		      1000 m od jeziora z bazą sportów wodnych, a jednocześnie z dala od zgiełku i hałasu.
+                      Nasze miejsce jest po prostu idealne:
+- Zaledwie **350 m** od morza – gotowy na plażowe szaleństwo?
+- Blisko centrum miejscowości – wszystkie atrakcje na wyciągnięcie ręki.
+- Z dala od miejskiego zgiełku – tu królują spokój i natura.
+- **1 km od jeziora** i centrum sportów wodnych – czas na aktywny wypoczynek!
+- **400 m od marketu** – wszystko, czego potrzebujesz, w zasięgu ręki.
 
 		  </p>
               </div>
