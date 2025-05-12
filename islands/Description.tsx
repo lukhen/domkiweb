@@ -43,8 +43,12 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-		      Rodziny z dziećmi nie będą zawiedzione. Szybkie i wygodne dojście na plażę to rzecz najważniejsza. Jednak nie samą plażą turysta żyje. Duży, drewniany plac zabaw, rowery i piłkarzyki nie pozwolą się nudzić również po plaży lub w dni nieplażowe.
-		  </p>
+              Rodziny z dziećmi, mamy coś specjalnie dla Was!
+              <ul class="list-disc ml-6 mt-2">
+                    <li><strong>Plac zabaw zewnętrzny!</strong> Idealne miejsce na radość i śmiech na świeżym powietrzu.</li>
+                    <li><strong>Sala zabaw!</strong> Bezpieczna przestrzeń pełna zabawy i kreatywności.</li>
+              </ul>
+         </p>
               </div>
               <div class="w-full p-8 border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0">
 		  <div class="flex items-center mb-6">
@@ -57,8 +61,16 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-		      Teren jest ogrodzony i monitorowany całodobowo. Podgląd na plac zabaw dostępny w każdym tv.
-		  </p>
+              Czas na odprężenie! Oto, co na Ciebie czeka:
+              <ul class="list-disc ml-6 mt-2">
+                    <li><strong>Jacuzzi i sauna!</strong> Idealne na relaks po dniu pełnym przygód.</li>
+                    <li><strong>Wypożyczalnia rowerów!</strong> Odkrywaj piękno okolicy na dwóch kółkach.</li>
+                    <li><strong>Stół do piłkarzyków i XBOX!</strong> Świetna zabawa dla całej rodziny.</li>
+                    <li><strong>Gry planszowe i biblioteczka!</strong> Dla miłośników spokojnych wieczorów z książką.</li>
+                    <li><strong>Duże tarasy!</strong> Idealne na grilla, opalanie i chwile w towarzystwie bliskich.</li>
+                    <li><strong>Drink bar!</strong> Orzeźwiające napoje, które umilą Twój pobyt.</li>
+              </ul>
+         </p>
               </div>
               <div class="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0">
 		  <div class="flex items-center mb-6">
