@@ -22,14 +22,15 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-                      Nasze miejsce jest po prostu idealne:
-- Zaledwie **350 m** od morza – gotowy na plażowe szaleństwo?
-- Blisko centrum miejscowości – wszystkie atrakcje na wyciągnięcie ręki.
-- Z dala od miejskiego zgiełku – tu królują spokój i natura.
-- **1 km od jeziora** i centrum sportów wodnych – czas na aktywny wypoczynek!
-- **400 m od marketu** – wszystko, czego potrzebujesz, w zasięgu ręki.
-
-		  </p>
+              Nasze miejsce to prawdziwy raj dla miłośników słońca i morza! Oto, co dla Ciebie mamy:
+              <ul class="list-disc ml-6 mt-2">
+                    <li><strong>Zaledwie 350 m od morza!</strong> Gotowy na plażowe szaleństwo?</li>
+                    <li><strong>Blisko centrum miejscowości!</strong> Wszystkie atrakcje na wyciągnięcie ręki.</li>
+                    <li><strong>Z dala od miejskiego zgiełku!</strong> Tu królują spokój i natura.</li>
+                    <li><strong>1 km od jeziora</strong> i centrum sportów wodnych – czas na aktywny wypoczynek!</li>
+                    <li><strong>400 m od marketu!</strong> Wszystko, czego potrzebujesz, tuż obok.</li>
+              </ul>
+         </p>
               </div>
               <div class="w-full p-8 border-b md:w-1/2 lg:w-1/3 lg:border-r">
 		  <div class="flex items-center mb-6">
