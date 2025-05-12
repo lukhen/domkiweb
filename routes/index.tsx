@@ -30,7 +30,6 @@ export default function Home() {
 	    elements={["jacuzzi i sauna", "śniadania", "grill", "sala zabaw", "wypożyczalnia rowerów", "duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
 	    />
 		<Description />
-	    <Description2 />
 	    <OfferList />
 	    <DomekDesc
 		id="domek6"
