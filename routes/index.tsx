@@ -10,6 +10,7 @@ import CardWith4Images from "../components/cardWith4Images.tsx"
 import OfferList from "../islands/OfferList.tsx"
 import ContactSection from "../components/ContactSection.tsx"
 import Description2 from "../islands/Description2.tsx"
+import Description from "../islands/Description.tsx"
 export default function Home() {
     return (
 	<>
@@ -28,6 +29,7 @@ export default function Home() {
 	    image22={"./20230303_0884_przyciety.jpg"}
 	    elements={["jacuzzi i sauna", "śniadania", "grill", "sala zabaw", "wypożyczalnia rowerów", "duże tarasy", "plac zabaw dla dzieci", "teren ogrodzony i monitorowany", "parking"]}
 	    />
+		<Description />
 	    <Description2 />
 	    <OfferList />
 	    <DomekDesc
