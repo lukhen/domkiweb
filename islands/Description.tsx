@@ -83,8 +83,14 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-		      Obszerne drewniane terasy posłużą na wieczornego grilla lub jako platforma do opalania.
-		  </p>
+              Nasza kuchnia czeka na Ciebie z pysznościami:
+              <ul class="list-disc ml-6 mt-2">
+                    <li><strong>Śniadania!</strong> Pyszne i zdrowe zaczynają Twój dzień!</li>
+                    <li><strong>Menu grillowe!</strong> Wyjątkowe potrawy na świeżym powietrzu.</li>
+                    <li><strong>Kawa i ciasto!</strong> Idealne na słodkie chwile w ciągu dnia.</li>
+                    <li><strong>Świeżo wyciskane soki i zimne napoje!</strong> Orzeźwienie na każdą pogodę!</li>
+              </ul>
+         </p>
               </div>
               <div class="w-full p-8 border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0">
 		  <div class="flex items-center mb-6">
@@ -97,8 +103,13 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-		      Niemal wszystkie domki mają możliwość parkowania przy domku.
-		  </p>
+              Bezpieczeństwo przede wszystkim! Oto, co dla Ciebie przygotowaliśmy:
+              <ul class="list-disc ml-6 mt-2">
+                    <li><strong>Teren ogrodzony!</strong> Dla Twojego spokoju i prywatności.</li>
+                    <li><strong>Monitoring!</strong> Dla dodatkowego komfortu.</li>
+                    <li><strong>Parking!</strong> Miejsce dla Twojego pojazdu, zawsze bezpieczne.</li>
+              </ul>
+         </p>
               </div>
               <div class="w-full p-8 md:w-1/2 lg:w-1/3">
 		  <div class="flex items-center mb-6">
@@ -111,8 +122,8 @@ export default function Description() {
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
-		      Zwierzęta są u nas mile widziane. Tuż za naszym ośrodkiem znajduje się dużo wolnej przestrzeni, gdzie bezstresowo można wyprowadzić swojego pupila.
-		  </p>
+              Nie zostawiaj swojego pupila w domu – <strong>zabierz go ze sobą!</strong> U nas czworonogi są mile widziane.
+         </p>
               </div>
 	  </div>
       </div>
