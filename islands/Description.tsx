@@ -18,7 +18,7 @@ export default function Description() {
 			  </path>
                       </svg>
                       <div class="ml-4 text-xl">
-			  Lokalizacja
+			  Lokalizacja i okolica
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
@@ -57,7 +57,7 @@ export default function Description() {
 			  </path>
                       </svg>
                       <div class="ml-4 text-xl">
-			  Bezpieczeństwo
+			  Rekreacja i relaks
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
@@ -68,7 +68,6 @@ export default function Description() {
                     <li><strong>Stół do piłkarzyków i XBOX!</strong> Świetna zabawa dla całej rodziny.</li>
                     <li><strong>Gry planszowe i biblioteczka!</strong> Dla miłośników spokojnych wieczorów z książką.</li>
                     <li><strong>Duże tarasy!</strong> Idealne na grilla, opalanie i chwile w towarzystwie bliskich.</li>
-                    <li><strong>Drink bar!</strong> Orzeźwiające napoje, które umilą Twój pobyt.</li>
               </ul>
          </p>
               </div>
@@ -79,7 +78,7 @@ export default function Description() {
 			  </path>
                       </svg>
                       <div class="ml-4 text-xl">
-			  Duże tarasy
+			  Wyżywienie
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
@@ -99,7 +98,7 @@ export default function Description() {
 			  </path>
                       </svg>
                       <div class="ml-4 text-xl">
-			  Parkowanie
+			  Bezpieczeństwo i komfort
                       </div>
 		  </div>
 		  <p class="leading-loose text-gray-500 dark:text-gray-200 text-md">
