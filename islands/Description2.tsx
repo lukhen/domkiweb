@@ -71,7 +71,6 @@ export default function Description2() {
                     <li><strong>Stół do piłkarzyków i XBOX!</strong> Świetna zabawa dla całej rodziny.</li>
                     <li><strong>Gry planszowe i biblioteczka!</strong> Dla miłośników spokojnych wieczorów z książką.</li>
                     <li><strong>Duże tarasy!</strong> Idealne na grilla, opalanie i chwile w towarzystwie bliskich.</li>
-                    <li><strong>Drink bar!</strong> Orzeźwiające napoje, które umilą Twój pobyt.</li>
               </ul>
          </p>
        </div>
