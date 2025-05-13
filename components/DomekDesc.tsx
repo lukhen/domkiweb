@@ -50,7 +50,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, element
 		    </ul>
 		</div>
 		<div class="mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
-		    
+		    <Carousel items=images />
 		</div>
 	    </div>
 	</div>
