@@ -55,10 +55,15 @@ const OfferList: preact.FunctionalComponent = () => {
                     "20230303_0129_przyciety.jpg"
                 ]}
                 elements={[
-                    { title: "4 osoby", text: "Oddzielna, zamykana sypialnia i salon z aneksem" },
-                    { title: "Łazienka", text: "" },
-                    { title: "Aneks kuchenny", text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny." },
-                    { title: "Taras", text: "Przestronny taras z meblami ogrodowymi." }
+                    { title: "Kompaktowa przestrzeń", text: "32 m², idealne dla par, małych rodzin lub osób podróżujących w pojedynkę" },
+                    { title: "Przytulny salon", text: "połączony z aneksem kuchennym, idealny do relaksu i spędzania czasu z bliskimi" },
+                    { title: "Oddzielna sypialnia", text: "z dwoma jednoosobowymi łóżkami, zapewniającymi komfortowy sen" },
+                    { title: "Wygodna rozkładana sofa", text: " dodatkowe miejsce do spania w salonie dla gości lub dzieci" },
+                    { title: "Funkcjonalny aneks kuchenny", text: "dobrze wyposażony, umożliwiający przygotowywanie posiłków" },
+                    { title: "Nowoczesna łazienka", text: "komfortowe warunki z prysznicem" },
+                    { title: "Przestronny taras", text: "z meblami ogrodowymi, doskonały do relaksu na świeżym powietrzu" },
+                    { title: "Idealne dla osób z ograniczoną mobilnością", text: "parterowy układ bez schodów zapewnia wygodny dostęp" },
+                    { title: "Przyjazne ceny", text: "doskonały stosunek jakości do ceny, dostępny dla różnych budżetów" }
                 ]}
             />
         </div>
