@@ -20,7 +20,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
 
             <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start flex flex-col-reverse">
 
-                {/* Tekst – scroll tylko na dużych ekranach */}
+                {/* Tekst – ustawiamy na max-height = wysokość karuzeli */}
                 <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg md:pl-12 lg:max-h-[500px] lg:overflow-y-auto lg:pr-6 lg:border-r lg:border-gray-200 dark:lg:border-gray-700">
                     <h4 class="text-xl font-bold leading-6 tracking-tight text-gray-900 dark:text-white sm:leading-7 mb-4">
                         {title}
@@ -61,7 +61,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
             <div class="text-center mt-8">
                 <a 
                     href="/rezerwacja"  // Możesz tutaj podać link do strony rezerwacji
-                    class="inline-block px-6 py-3 mt-4 text-white bg-blue-600 rounded-lg text-lg hover:bg-blue-700 transition duration-300 ease-in-out"
+                    class="inline-block px-6 py-3 mt-4 text-white bg-blue-600 rounded-lg text-lg hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 transition duration-300 ease-in-out transform hover:scale-105 active:scale-95"
                 >
                     Zarezerwuj teraz
                 </a>
@@ -69,6 +69,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
         </div>
     );
 };
+
 
 
 
