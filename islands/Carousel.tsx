@@ -9,6 +9,7 @@ const Carousel: FunctionalComponent<CarouselProps> = ({ items }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [startX, setStartX] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
+  const [draggedX, setDraggedX] = useState(0); // Przechowywanie przesunięcia
   const sliderRef = useRef<HTMLDivElement>(null);
 
   const handlePrevClick = () => {
@@ -24,6 +25,7 @@ const Carousel: FunctionalComponent<CarouselProps> = ({ items }) => {
   const handleTouchStart = (event: TouchEvent) => {
     setStartX(event.touches[0].clientX);
     setIsDragging(true);
+    setDraggedX(0); // Resetowanie przesunięcia
   };
 
   const handleTouchMove = (event: TouchEvent) => {
@@ -31,36 +33,26 @@ const Carousel: FunctionalComponent<CarouselProps> = ({ items }) => {
       return;
     }
 
-    const slider = sliderRef.current;
-    if (slider) {
-      const currentX = event.touches[0].clientX;
-      const diffX = startX - currentX;
-      slider.style.transform = `translateX(-${currentIndex * 100 + diffX}px)`;
-    }
+    const currentX = event.touches[0].clientX;
+    const diffX = startX - currentX; // Różnica między początkiem a obecnym położeniem
+
+    setDraggedX(diffX); // Zaktualizowanie przesunięcia
   };
 
   const handleTouchEnd = () => {
-    const slider = sliderRef.current;
-
-    if (slider) {
-      const endX = startX - slider.getBoundingClientRect().left;
-      const threshold = slider.clientWidth / 4;  // Krok w którym traktujemy przesunięcie jako zmianę slajdu
-
-      slider.style.transition = `transform 0.3s ease-out`;  // Płynne przejście
-
-      if (endX < -threshold) {
+    if (Math.abs(draggedX) > 50) { // Próg, aby uznać gest za pełny (50px)
+      if (draggedX > 0) {
         // Przewijanie w lewo
         setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
-      } else if (endX > threshold) {
+      } else {
         // Przewijanie w prawo
         setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
       }
-
-      // Ustawienie właściwego przesunięcia po zakończeniu
-      slider.style.transform = `translateX(-${currentIndex * 100}%)`;
-
-      setIsDragging(false);
     }
+
+    // Przywrócenie do normalnego stanu
+    setIsDragging(false);
+    setDraggedX(0);
   };
 
   return (
