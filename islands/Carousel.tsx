@@ -44,15 +44,19 @@ const Carousel: FunctionalComponent<CarouselProps> = ({ items }) => {
 
     if (slider) {
       const endX = startX - slider.getBoundingClientRect().left;
-      const threshold = slider.clientWidth / 4;
-      
+      const threshold = slider.clientWidth / 4;  // Krok w którym traktujemy przesunięcie jako zmianę slajdu
+
+      slider.style.transition = `transform 0.3s ease-out`;  // Płynne przejście
+
       if (endX < -threshold) {
-        handleNextClick();
+        // Przewijanie w lewo
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % items.length);
       } else if (endX > threshold) {
-        handlePrevClick();
+        // Przewijanie w prawo
+        setCurrentIndex((prevIndex) => (prevIndex - 1 + items.length) % items.length);
       }
 
-      slider.style.transition = `transform 0.3s ease-out`;
+      // Ustawienie właściwego przesunięcia po zakończeniu
       slider.style.transform = `translateX(-${currentIndex * 100}%)`;
 
       setIsDragging(false);
