@@ -56,9 +56,20 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
                     <Carousel items={images} />
                 </div>
             </div>
+
+            {/* Przycisk CTA – przekierowanie do strony rezerwacji */}
+            <div class="text-center mt-8">
+                <a 
+                    href="/rezerwacja"  // Możesz tutaj podać link do strony rezerwacji
+                    class="inline-block px-6 py-3 mt-4 text-white bg-blue-600 rounded-lg text-lg hover:bg-blue-700 transition duration-300 ease-in-out"
+                >
+                    Zarezerwuj teraz
+                </a>
+            </div>
         </div>
     );
 };
+
 
 
 
