@@ -1,3 +1,5 @@
+import Carousel from "../islands/Carousel.tsx"
+
 interface Element {
     title: string;
     text: string
@@ -48,7 +50,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, element
 		    </ul>
 		</div>
 		<div class="mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
-		    <img src={image} alt="illustration" class="w-46 mx-auto rounded shadow-lg" width="600"/>
+		    <Carousel items={["./domki.jpg", "./domek6.jpg"]} />
 		</div>
 	    </div>
 	</div>
