@@ -19,6 +19,7 @@ const OfferList: preact.FunctionalComponent = () => {
             </div>
 
             {/* Domek piętrowy */}
+            <h3 class="text-2xl font-semibold text-gray-700 dark:text-gray-100 mb-4 mt-8">Domek piętrowy</h3>
             <DomekDesc
                 id="domek6"
                 title="Domek piętrowy"
@@ -31,50 +32,21 @@ const OfferList: preact.FunctionalComponent = () => {
                     "łazienka_3x2.jpg"
                 ]}
                 elements={[
-                    {
-                        title: "Przestronny i komfortowy",
-                        text: "54 m² powierzchni, idealny dla rodzin i grup przyjaciół"
-                    },
-                    {
-                        title: "Dwupoziomowa aranżacja",
-                        text: "dwie oddzielne sypialnie na piętrze, zapewniające prywatność"
-                    },
-                    {
-                        title: "Wygodne łóżka",
-                        text: "w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen"
-                    },
-                    {
-                        title: "Funkcjonalny salon",
-                        text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
-                    },
-                    {
-                        title: "Nowoczesne wyposażenie",
-                        text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą"
-                    },
-                    {
-                        title: "Funkcjonalny salon",
-                        text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
-                    },
-                    {
-                        title: "Duża łazienka",
-                        text: "komfortowy prysznic i nowoczesne wykończenia"
-                    },
-                    {
-                        title: "Ogród i taras",
-                        text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu"
-                    },
-                    {
-                        title: "Świeżo po remoncie",
-                        text: "nowoczesny wystrój i komfortowe wnętrze"
-                    },
-                    {
-                        title: "Możliwość zakwaterowania do 7 osób",
-                        text: "przytulna przestrzeń dla rodzin i grup przyjaciół"
-                    }
+                    { title: "Przestronny i komfortowy", text: "54 m² powierzchni, idealny dla rodzin i grup przyjaciół" },
+                    { title: "Dwupoziomowa aranżacja", text: "dwie oddzielne sypialnie na piętrze, zapewniające prywatność" },
+                    { title: "Wygodne łóżka", text: "w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen" },
+                    { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
+                    { title: "Nowoczesne wyposażenie", text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą" },
+                    { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
+                    { title: "Duża łazienka", text: "komfortowy prysznic i nowoczesne wykończenia" },
+                    { title: "Ogród i taras", text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu" },
+                    { title: "Świeżo po remoncie", text: "nowoczesny wystrój i komfortowe wnętrze" },
+                    { title: "Możliwość zakwaterowania do 7 osób", text: "przytulna przestrzeń dla rodzin i grup przyjaciół" }
                 ]}
             />
 
             {/* Domek parterowy */}
+            <h3 class="text-2xl font-semibold text-gray-700 dark:text-gray-100 mb-4 mt-12">Domek parterowy</h3>
             <DomekDesc
                 id="domek4"
                 title="Domek parterowy"
@@ -86,27 +58,16 @@ const OfferList: preact.FunctionalComponent = () => {
                     "20230303_0129_przyciety.jpg"
                 ]}
                 elements={[
-                    {
-                        title: "4 osoby",
-                        text: "Oddzielna, zamykana sypialnia i salon z aneksem"
-                    },
-                    {
-                        title: "Łazienka",
-                        text: ""
-                    },
-                    {
-                        title: "Aneks kuchenny",
-                        text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny."
-                    },
-                    {
-                        title: "Taras",
-                        text: "Przestronny taras z meblami ogrodowymi."
-                    }
+                    { title: "4 osoby", text: "Oddzielna, zamykana sypialnia i salon z aneksem" },
+                    { title: "Łazienka", text: "" },
+                    { title: "Aneks kuchenny", text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny." },
+                    { title: "Taras", text: "Przestronny taras z meblami ogrodowymi." }
                 ]}
             />
         </div>
     );
 };
+
 
 
 
