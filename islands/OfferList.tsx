@@ -2,10 +2,10 @@ import DomekDesc from "../components/DomekDesc.tsx"
 
 const OfferList: preact.FunctionalComponent = () => {
     return (
-        <div id="oferta" class="lg:w-[90%] max-w-screen-xl my-10 rounded-xl mx-auto p-6 bg-white dark:bg-gray-800">
+        <div id="oferta" class="w-full max-w-screen-2xl mx-auto my-10 px-4 lg:px-8 bg-white dark:bg-gray-800">
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
 
-            <div class="w-full p-6 sm:p-12 bg-white dark:bg-gray-800">
+            <div class="w-full py-6 sm:py-12 bg-white dark:bg-gray-800">
                 <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-12">
                     <div class="title">
                         <p class="mb-4 text-4xl font-bold text-gray-800 dark:text-white">
@@ -31,16 +31,46 @@ const OfferList: preact.FunctionalComponent = () => {
                     "łazienka_3x2.jpg"
                 ]}
                 elements={[
-                    { title: "Przestronny i komfortowy", text: "54 m² powierzchni, idealny dla rodzin i grup przyjaciół" },
-                    { title: "Dwupoziomowa aranżacja", text: "dwie oddzielne sypialnie na piętrze, zapewniające prywatność" },
-                    { title: "Wygodne łóżka", text: "w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen" },
-                    { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
-                    { title: "Nowoczesne wyposażenie", text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą" },
-                    { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
-                    { title: "Duża łazienka", text: "komfortowy prysznic i nowoczesne wykończenia" },
-                    { title: "Ogród i taras", text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu" },
-                    { title: "Świeżo po remoncie", text: "nowoczesny wystrój i komfortowe wnętrze" },
-                    { title: "Możliwość zakwaterowania do 7 osób", text: "przytulna przestrzeń dla rodzin i grup przyjaciół" }
+                    {
+                        title: "Przestronny i komfortowy",
+                        text: "54 m² powierzchni, idealny dla rodzin i grup przyjaciół"
+                    },
+                    {
+                        title: "Dwupoziomowa aranżacja",
+                        text: "dwie oddzielne sypialnie na piętrze, zapewniające prywatność"
+                    },
+                    {
+                        title: "Wygodne łóżka",
+                        text: "w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen"
+                    },
+                    {
+                        title: "Funkcjonalny salon",
+                        text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
+                    },
+                    {
+                        title: "Nowoczesne wyposażenie",
+                        text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą"
+                    },
+                    {
+                        title: "Funkcjonalny salon",
+                        text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
+                    },
+                    {
+                        title: "Duża łazienka",
+                        text: "komfortowy prysznic i nowoczesne wykończenia"
+                    },
+                    {
+                        title: "Ogród i taras",
+                        text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu"
+                    },
+                    {
+                        title: "Świeżo po remoncie",
+                        text: "nowoczesny wystrój i komfortowe wnętrze"
+                    },
+                    {
+                        title: "Możliwość zakwaterowania do 7 osób",
+                        text: "przytulna przestrzeń dla rodzin i grup przyjaciół"
+                    }
                 ]}
             />
 
@@ -56,15 +86,28 @@ const OfferList: preact.FunctionalComponent = () => {
                     "20230303_0129_przyciety.jpg"
                 ]}
                 elements={[
-                    { title: "4 osoby", text: "Oddzielna, zamykana sypialnia i salon z aneksem" },
-                    { title: "Łazienka", text: "" },
-                    { title: "Aneks kuchenny", text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny." },
-                    { title: "Taras", text: "Przestronny taras z meblami ogrodowymi." }
+                    {
+                        title: "4 osoby",
+                        text: "Oddzielna, zamykana sypialnia i salon z aneksem"
+                    },
+                    {
+                        title: "Łazienka",
+                        text: ""
+                    },
+                    {
+                        title: "Aneks kuchenny",
+                        text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny."
+                    },
+                    {
+                        title: "Taras",
+                        text: "Przestronny taras z meblami ogrodowymi."
+                    }
                 ]}
             />
         </div>
     );
 };
+
 
 
 export default OfferList
