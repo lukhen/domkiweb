@@ -1,3 +1,5 @@
+import DomekDesc from "../components/DomekDesc.tsx"
+
 const OfferList: preact.FunctionalComponent = () => {
     return (
 	<div id="oferta" class="lg:w-4/5 my-10  rounded-xl mx-auto p-4 bg-white dark:bg-gray-800">
