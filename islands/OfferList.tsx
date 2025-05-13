@@ -15,7 +15,11 @@ const OfferList: preact.FunctionalComponent = () => {
 			    Oferujemy dwa rodzaje domków
 			</p>
 		    </div>
-		    <DomekDesc
+		    
+		</div>
+		
+	    </div>
+		<DomekDesc
 		id="domek6"
 		title="Domek piętrowy"
 	    images={["./salon2_3x2.jpg", "./salon3_3x2.jpg", "./salon_3x2.jpg", "./sypialnia2_3x2.jpg", "Sypialnia_3x2.jpg", "łazienka_3x2.jpg"]}
@@ -83,9 +87,6 @@ const OfferList: preact.FunctionalComponent = () => {
 		 }
 		]}
 	    />
-		</div>
-		
-	    </div>
 	</div>
 
     );
