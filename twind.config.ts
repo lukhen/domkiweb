@@ -4,6 +4,3 @@ export default {
   selfURL: import.meta.url,
 } as Options;
 
-plugins: [
-  require('@tailwindcss/line-clamp'),
-],
