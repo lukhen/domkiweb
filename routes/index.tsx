@@ -32,6 +32,17 @@ export default function Home() {
 	    />
 		<Description />
 	    <OfferList />
+		<div class="flex items-end justify-between mb-12 header">
+		    <div class="title">
+			<p class="mb-4 text-4xl font-bold text-gray-800">
+			    Nasza oferta
+			</p>
+			<p class="text-2xl font-light text-gray-400">
+			    Oferujemy dwa rodzaje domków
+			</p>
+		    </div>
+		    
+		</div>
 	    <DomekDesc
 		id="domek6"
 		title="Domek piętrowy"
