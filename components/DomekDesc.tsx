@@ -13,7 +13,7 @@ interface Props {
 }
 
 
-const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, elements}) => {
+const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, images, elements}) => {
     return (
 	<div id={id} class="lg:w-4/5 my-10  rounded-xl mx-auto  p-4 bg-white dark:bg-gray-800">
 	    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
@@ -50,8 +50,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, image, element
 		    </ul>
 		</div>
 		<div class="mt-10 -mx-4 md:-mx-12 lg:mt-0 lg:col-start-1">
-		    
-			    <div>{images.map(el=>(<div>el</div>))}</div>
+		    <Carousel items={images} />
 		</div>
 			
 	    </div>
