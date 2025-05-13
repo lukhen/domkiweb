@@ -19,7 +19,6 @@ const OfferList: preact.FunctionalComponent = () => {
             </div>
 
             {/* Domek piętrowy */}
-            <h3 class="text-2xl font-semibold text-gray-700 dark:text-gray-100 mb-4 mt-8">Domek piętrowy</h3>
             <DomekDesc
                 id="domek6"
                 title="Domek piętrowy"
@@ -46,7 +45,6 @@ const OfferList: preact.FunctionalComponent = () => {
             />
 
             {/* Domek parterowy */}
-            <h3 class="text-2xl font-semibold text-gray-700 dark:text-gray-100 mb-4 mt-12">Domek parterowy</h3>
             <DomekDesc
                 id="domek4"
                 title="Domek parterowy"
