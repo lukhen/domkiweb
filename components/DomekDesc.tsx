@@ -17,11 +17,11 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
     return (
         <div id={id} class="lg:w-4/5 my-10 rounded-xl mx-auto p-4 bg-white dark:bg-gray-800 shadow-md">
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-
-            <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start flex flex-col-reverse">
                     <h4 class="text-xl font-bold leading-6 tracking-tight text-gray-900 dark:text-white sm:leading-7 mb-4">
                         {title}
                     </h4>
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start flex flex-col-reverse">
+
                 {/* Tekst – ustawiamy na max-height = wysokość karuzeli */}
                 <div class="bg-gray-50 dark:bg-gray-700 p-4 rounded-lg md:pl-12 lg:max-h-[500px] lg:overflow-y-auto lg:pr-6 lg:border-r lg:border-gray-200 dark:lg:border-gray-700">
 
