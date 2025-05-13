@@ -36,7 +36,6 @@ const OfferList: preact.FunctionalComponent = () => {
                     { title: "Wygodne łóżka", text: "w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen" },
                     { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
                     { title: "Nowoczesne wyposażenie", text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą" },
-                    { title: "Funkcjonalny salon", text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób" },
                     { title: "Duża łazienka", text: "komfortowy prysznic i nowoczesne wykończenia" },
                     { title: "Ogród i taras", text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu" },
                     { title: "Świeżo po remoncie", text: "nowoczesny wystrój i komfortowe wnętrze" },
