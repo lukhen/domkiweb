@@ -9,10 +9,10 @@ const OfferList: preact.FunctionalComponent = () => {
                 <div class="flex flex-col sm:flex-row items-start sm:items-end justify-between mb-12">
                     <div class="title">
                         <p class="mb-4 text-4xl font-bold text-gray-800 dark:text-white">
-                            Nasza oferta
+                            Zakwaterowanie
                         </p>
                         <p class="text-2xl font-light text-gray-400 dark:text-gray-300">
-                            Oferujemy dwa rodzaje domków
+                            Oferujemy dwie opcje zakwaterowania
                         </p>
                     </div>
                 </div>
