@@ -27,13 +27,21 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
                     </h4>
                     <ul class="mt-4 ml-6 space-y-5">
                         {elements.map(el => (
-                            <li>
-                                <h5 class="text-base font-semibold text-gray-900 dark:text-white mb-1">
-                                    {el.title}
-                                </h5>
-                                <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-300">
-                                    {el.text}
-                                </p>
+                            <li class="flex items-start space-x-3">
+                                {/* Ikona */}
+                                <svg class="flex-shrink-0 w-5 h-5 text-blue-500 mt-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2l4-4m6 2a10 10 0 11-20 0a10 10 0 0120 0z" />
+                                </svg>
+
+                                {/* Tekst */}
+                                <div>
+                                    <h5 class="text-base font-semibold text-gray-900 dark:text-white mb-1">
+                                        {el.title}
+                                    </h5>
+                                    <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-300">
+                                        {el.text}
+                                    </p>
+                                </div>
                             </li>
                         ))}
                     </ul>
