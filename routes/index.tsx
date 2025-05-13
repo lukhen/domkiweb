@@ -11,6 +11,7 @@ import OfferList from "../islands/OfferList.tsx"
 import ContactSection from "../components/ContactSection.tsx"
 import Description2 from "../islands/Description2.tsx"
 import Description from "../islands/Description.tsx"
+import Carousel from "../islands/Carousel.tsx"
 export default function Home() {
     return (
 	<>
@@ -75,6 +76,7 @@ export default function Home() {
 		 }
 		]}
 	    />
+		<Carousel items=["./domki.jpg", ./domek6.jpg"]/>
 	    <ContactSection />
 	</>
     );
