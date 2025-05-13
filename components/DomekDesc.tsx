@@ -21,7 +21,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
 
             <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start flex flex-col-reverse">
                 
-                {/* Tekst */}
+                {/* Tekst z przewijaniem */}
                 <div class="md:pl-12 max-h-[500px] overflow-y-auto pr-2">
                     <h4 class="text-xl font-bold leading-6 tracking-tight text-gray-900 dark:text-white sm:leading-7">
                         {title}
@@ -32,7 +32,9 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
                                 <h5 class="text-base font-semibold text-gray-900 dark:text-white mb-1">
                                     {el.title}
                                 </h5>
-                                <ReadMoreText text={el.text} />
+                                <p class="text-sm leading-relaxed text-gray-500 dark:text-gray-300">
+                                    {el.text}
+                                </p>
                             </li>
                         ))}
                     </ul>
@@ -46,27 +48,5 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
         </div>
     );
 };
-
-const ReadMoreText = ({ text }: { text: string }) => {
-    const [expanded, setExpanded] = useState(false);
-    const shouldClamp = text.length > 300;
-
-    return (
-        <div>
-            <p class={`text-sm leading-relaxed text-gray-500 dark:text-gray-300 ${!expanded && shouldClamp ? 'line-clamp-4' : ''}`}>
-                {text}
-            </p>
-            {shouldClamp && (
-                <button
-                    onClick={() => setExpanded(!expanded)}
-                    class="mt-1 text-blue-500 hover:underline text-sm"
-                >
-                    {expanded ? 'Zwiń' : 'Czytaj więcej'}
-                </button>
-            )}
-        </div>
-    );
-};
-
 
 export default DomekDesc
