@@ -23,7 +23,7 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({id, title, images, elemen
 		    <h4 class="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 dark:text-white sm:leading-9">
 			{title}
 		    </h4>
-		    <ul class="mt-10">
+		    <ul class="mt-2">
 			{elements.map(el => (
 			    <li class="mt-10">
 
