@@ -38,19 +38,43 @@ export default function Home() {
 	    images={["./salon2_3x2.jpg", "./salon3_3x2.jpg", "./salon_3x2.jpg", "./sypialnia2_3x2.jpg", "Sypialnia_3x2.jpg", "łazienka_3x2.jpg"]}
 		elements={
 		[{
-		    title: "6 osób",
-		    text: "Dwie sypialnie na piętrze, w każdej po dwa łóżka jednoosobowe. Na parterze salon z rozkładanym narożnikiem i łóżkiem jednoosobowym."},
+		    title: "Przestronny i komfortowy",
+		    text: "54 m² powierzchni, idealny dla rodzin i grup przyjaciół"},
+		 {
+		     title: "Dwupoziomowa aranżacja",
+		     text: " dwie oddzielne sypialnie na piętrze, zapewniające prywatność"
+		 },
+		 {
+		     title: "Wygodne łóżka",
+		     text: " w każdej sypialni po dwa jednoosobowe łóżka, zapewniające komfortowy sen"
+		 },
+		 {
+		     title: "Funkcjonalny salon",
+		     text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
+		 },
+		 {
+		     title: "Nowoczesne wyposażenie",
+		     text: "kuchenka, czajnik, mikrofalówka i ekspres do kawy, by cieszyć się domowymi posiłkami i kawą"
+		 },
+		 {
+		     title: "Funkcjonalny salon",
+		     text: "przestronny z aneksem kuchennym, idealny na wspólne posiłki przy stole dla 6 osób"
+		 },
 		 {
 		     title: "Duża łazienka",
-		     text: "Łazienka z natryskiem 5 m^2."
+		     text: "komfortowy prysznic i nowoczesne wykończenia"
 		 },
 		 {
-		     title: "Aneks kuchenny",
-		     text: "Wyposażony aneks, wystarczający do przygotowania posiłku dla całej rodziny."
+		     title: "Ogród i taras",
+		     text: "duży taras z meblami ogrodowymi, idealny do relaksu na świeżym powietrzu"
 		 },
 		 {
-		     title: "Taras",
-		     text: "Przestronny taras z meblami ogrodowymi."
+		     title: "Świeżo po remoncie",
+		     text: "nowoczesny wystrój i komfortowe wnętrze"
+		 },
+		 {
+		     title: "Możliwość zakwaterowania do 7 osób",
+		     text: "przytulna przestrzeń dla rodzin i grup przyjaciół"
 		 }
 		]}
 	    />
