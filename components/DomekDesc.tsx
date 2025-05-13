@@ -1,5 +1,4 @@
 import Carousel from "../islands/Carousel.tsx"
-import { useState } from 'preact/hooks';
 
 interface Element {
     title: string;
@@ -21,8 +20,8 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
 
             <div class="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start flex flex-col-reverse">
                 
-                {/* Tekst z przewijaniem */}
-                <div class="md:pl-12 max-h-[500px] overflow-y-auto pr-2">
+                {/* Tekst – przewijany tylko na dużych ekranach */}
+                <div class="md:pl-12 lg:max-h-[500px] lg:overflow-y-auto lg:pr-2">
                     <h4 class="text-xl font-bold leading-6 tracking-tight text-gray-900 dark:text-white sm:leading-7">
                         {title}
                     </h4>
@@ -48,5 +47,6 @@ const DomekDesc: preact.FunctionalComponent<Props> = ({ id, title, images, eleme
         </div>
     );
 };
+
 
 export default DomekDesc
