@@ -76,7 +76,7 @@ export default function Home() {
 		 }
 		]}
 	    />
-		<Carousel items=["./domki.jpg", ./domek6.jpg"] />
+		<Carousel items=["./domki.jpg", "./domek6.jpg"] />
 	    <ContactSection />
 	</>
     );
