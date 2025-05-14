@@ -1,4 +1,5 @@
-const LandingPage: preact.FunctionalComponent<Props> = () => {
+
+const LandingPage: preact.FunctionalComponent= () => {
   return (
       <div class="relative h-screen overflow-hidden bg-indigo-900">
 	  <img src="/20230303_0725.jpg" class="absolute object-cover w-full h-full"/>
@@ -10,9 +11,7 @@ const LandingPage: preact.FunctionalComponent<Props> = () => {
                       Słoneczko
 		  </span>
 		  <h1 class="mt-4 text-6xl font-bold leading-tight text-white sm:text-7xl">
-                      Domki
-                      <br/>
-                      zaledwie 350 m od piaszczystej plaży
+                      Domki zaledwie 350 m od piaszczystej plaży
 		  </h1>
 		  <a href="#" class="block px-4 py-3 mt-10 text-lg font-bold text-gray-800 uppercase bg-white rounded-lg hover:bg-gray-100">
                       Discover
