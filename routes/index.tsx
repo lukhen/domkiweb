@@ -18,6 +18,9 @@ export default function Home() {
 	
     return (
 	<>
+		<Head>
+			<titke>asdfasdfasdf</title>
+		</Head>
 	    <Menu />
 	    <LandingPage />
 	    <CardWith4Images
