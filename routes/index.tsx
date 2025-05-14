@@ -18,9 +18,7 @@ export default function Home() {
 	
     return (
 	<>
-		<Head>
-			<title>asdfasdfasdf</title>
-		</Head>
+
 	    <Menu />
 	    <LandingPage />
 	    <CardWith4Images
