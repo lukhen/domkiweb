@@ -1,18 +1,15 @@
-import { Html, Head, Main, Scripts } from "$fresh/runtime.ts";
+// routes/_app.tsx
+import { AppProps } from "$fresh/server.ts";
 
-console.log("✅ _document.tsx was loaded!");
-
-export default function Document() {
+export default function App({ Component }: AppProps) {
   return (
-    <Html lang="pl">
-      <Head>
-        <title>Test dokumentu</title>
-        <meta name="custom-doc-test" content="yes" />
-      </Head>
+    <html lang="de">
+      <head>
+        <title>My Fresh App</title>
+      </head>
       <body>
-        <Main />
-        <Scripts />
+        <Component />
       </body>
-    </Html>
+    </html>
   );
 }
