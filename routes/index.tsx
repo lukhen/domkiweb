@@ -13,6 +13,20 @@ import Description2 from "../islands/Description2.tsx"
 import Description from "../islands/Description.tsx"
 import Carousel from "../islands/Carousel.tsx"
 export default function Home() {
+	  useEffect(() => {
+    // Google Analytics
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtag/js?id=G-QZ651WN12Y";
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QZ651WN12Y');
+    };
+  }, []);
     return (
 	<>
 	    <Head>
