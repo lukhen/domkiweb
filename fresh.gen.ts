@@ -22,7 +22,6 @@ const manifest = {
     "./routes/[name].tsx": $0,
     "./routes/api/joke.ts": $1,
     "./routes/index.tsx": $2,
-    "./routes/blog.tsx": $3,
   },
   islands: {
     "./islands/CardWith4ComponentsIsland.tsx": $$0,
