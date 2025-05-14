@@ -12,6 +12,8 @@ import ContactSection from "../components/ContactSection.tsx"
 import Description2 from "../islands/Description2.tsx"
 import Description from "../islands/Description.tsx"
 import Carousel from "../islands/Carousel.tsx"
+import { useEffect } from "preact/hooks";
+
 export default function Home() {
 	  useEffect(() => {
     // Google Analytics
