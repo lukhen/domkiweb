@@ -1,7 +1,18 @@
-<body>
-  <Main />
-  <Scripts />
-  <div style="position: fixed; bottom: 10px; left: 10px; background: red; color: white; padding: 4px; z-index: 9999;">
-    DOCUMENT LOADED
-  </div>
-</body>
+import { Html, Head, Main, Scripts } from "$fresh/runtime.ts";
+
+console.log("✅ _document.tsx was loaded!");
+
+export default function Document() {
+  return (
+    <Html lang="pl">
+      <Head>
+        <title>Test dokumentu</title>
+        <meta name="custom-doc-test" content="yes" />
+      </Head>
+      <body>
+        <Main />
+        <Scripts />
+      </body>
+    </Html>
+  );
+}
