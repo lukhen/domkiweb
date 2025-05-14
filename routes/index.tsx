@@ -19,7 +19,7 @@ export default function Home() {
     return (
 	<>
 		<Head>
-			<titke>asdfasdfasdf</title>
+			<title>asdfasdfasdf</title>
 		</Head>
 	    <Menu />
 	    <LandingPage />
