@@ -38,7 +38,7 @@ export default function Home() {
 	    <CardWith4Images
 		header={"Domki FarAway (dawniej Słoneczko)"}
 		title={"Drewniane domki niedaleko pięknej piaszczystej plaży."}
-		desc={"Ośrodek Słoneczko-Domki położony jest zaledwie 350 m od piaszczystej plaży. Do dyspozycji gości oddajemy komfortowe, drewniane domki. Na gości czeka wiele atrakcji, w tym jacuzzi, sauna fińska, pomieszczenie gier i zabaw dla dzieci, wypożyczalnia rowerów, zewnętrzny plac zabaw oraz ogród pełen zieleni i kwiatów. Gościom oferujemy menu śniadaniowe oraz grillowe. Zapewniamy cichą i kameralną atmosferę w doskonałej lokalizacji w centrum Dźwirzyna, w izolacji od ruchu ulicznego i nocnego życia, w spacerowej odległości od plaży i wszelkich atrakcji miasteczka."}
+		desc={"Domki FarAway (dawniej Słoneczko) położony jest zaledwie 350 m od piaszczystej plaży. Do dyspozycji gości oddajemy komfortowe, drewniane domki. Na gości czeka wiele atrakcji, w tym jacuzzi, sauna fińska, pomieszczenie gier i zabaw dla dzieci, wypożyczalnia rowerów, zewnętrzny plac zabaw oraz ogród pełen zieleni i kwiatów. Gościom oferujemy menu śniadaniowe oraz grillowe. Zapewniamy cichą i kameralną atmosferę w doskonałej lokalizacji w centrum Dźwirzyna, w izolacji od ruchu ulicznego i nocnego życia, w spacerowej odległości od plaży i wszelkich atrakcji miasteczka."}
 		image11={"./domki.jpg"}
 		image12={"./domek6.jpg"}
 		image21={"./20230303_0667_przyciety.jpg"}
