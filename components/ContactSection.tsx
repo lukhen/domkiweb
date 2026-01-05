@@ -12,7 +12,7 @@ const ContactSection: preact.FunctionalComponent = () => {
 			<p>
 			    Jeśli jesteś zainteresowany pobytem u nas, chcesz zapytać o ceny lub nurtuje Cię coś innego napisz lub zadzwoń:
 			</p>
-			<p>email: domki.sloneczko@gmail.com</p>
+			<p>email: domki@faraway.pl</p>
 			<p>tel: 509 572 320</p>
 			<p>adres: ul. Polna 1, 78-131 Dźwirzyno</p>
 		    </dd>
