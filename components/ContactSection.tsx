@@ -14,6 +14,7 @@ const ContactSection: preact.FunctionalComponent = () => {
 			</p>
 			<p>email: domki.sloneczko@gmail.com</p>
 			<p>tel: 509 572 320</p>
+			<p>adres: ul. Polna 1, 78-131 Dźwirzyno</p>
 		    </dd>
 		</dl>
 	    </div>
